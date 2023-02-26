@@ -3,7 +3,7 @@ import { CurrencyProps } from "../types";
 
 function Currency({ activeCurrency, onCurrency }: CurrencyProps) {
   return (
-    <div>
+    <div className='flex flex-wrap gap-2'>
       <label className="block text-sm font-medium text-gray-700 dark:text-white mb-1">
         Currency
       </label>

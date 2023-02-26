@@ -26,6 +26,34 @@ html[data-color='pink'] {
   --brand: theme('colors.pink.600');
 }
 
+html[data-color='teal'] {
+  --brand: theme('colors.teal.500');
+}
+
+html[data-color='purple'] {
+  --brand: theme('colors.purple.500');
+}
+
+html[data-color='gray'] {
+  --brand: theme('colors.gray.500');
+}
+
+html[data-color='emerald'] {
+  --brand: theme('colors.emerald.500');
+}
+
+html[data-color='red'] {
+  --brand: theme('colors.red.500');
+}
+
+html[data-color='orange'] {
+  --brand: theme('colors.orange.500');
+}
+
+html[data-color='blue'] {
+  --brand: theme('colors.blue.500');
+}
+
 @layer components {
   .btn {
     @apply w-full px-10 py-4 text-base font-medium text-center transition duration-500 ease-in-out transform rounded-xl focus:outline-none focus:ring-4;

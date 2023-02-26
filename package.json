@@ -1,8 +1,22 @@
 {
-  "name": "profit-margin-calculator",
+  "name": "profit-pilot",
+  "description": "Fine-tune your menu item pricing to boost your profits by pinpointing the most efficient selling prices.",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "keywords": [
+    "menu",
+    "pricing",
+    "profits",
+    "optimization"
+  ],
+  "homepage": "https://your-app-url.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akash-gupt/profit-pilot"
+  },
+  "author": "Akash Gupta",
+  "license": "MIT",
   "scripts": {
     "dev": "vite",
     "dev:host": "vite --host",

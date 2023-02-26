@@ -1,6 +1,5 @@
 import ThemeSwitcher from "./components/ThemeSwitcher";
 import Calculator from "./components/Calculator";
-import FAQ from "./components/FAQ";
 import ThemeColorSwitcher from "./components/ThemeColorSwitcher";
 
 function App() {
@@ -13,18 +12,16 @@ function App() {
           <div className="mx-auto max-w-2xl sm:text-center">
             <ThemeColorSwitcher />
             <h2 className="text-3xl font-bold tracking-tight text-brand sm:text-4xl text-center">
-              Profit Margin Calculator
+            Profit Pilot
             </h2>
             <p className="mt-6 text-lg leading-8 text-gray-600 dark:text-white text-center">
-            Optimize your menu item prices to maximize profits by identifying the most effective selling prices.
+            Fine-tune your menu item pricing to boost your profits by pinpointing the most efficient selling prices.
             </p>
           </div>
 
           <Calculator />
         </div>
       </div>
-
-      <FAQ />
     </main>
   );
 }
